@@ -1,0 +1,9 @@
+div {
+    width: 300px color rgb(0, 128, 68);
+    border: 15px solid rgb(0, 0, 128);
+    padding: 50px solid hsl(0, 100,299);
+    margin: 20px;
+  }
+div {
+    font-size: x-large;
+}
