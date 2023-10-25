@@ -1,9 +1,17 @@
 .side1 {
     border: solid white;
-    background-color: silver;
+    background-color: rgb(76, 55, 55);
+    margin: auto;
+
 
 }
+
 .side2 {
-    border: solid yellow;
-    background-color: white;
+    border: solid rgb(255, 255, 255);
+    background-color: rgb(219, 214, 214);
+}
+
+.allbox {
+    display: flex;
+    flex-direction: row;
 }
