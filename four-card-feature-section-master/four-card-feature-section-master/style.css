@@ -1,0 +1,76 @@
+.container {
+    text-align: center;
+    font-family: font-family: 'Poppins', sans-serif;
+    max-width: 1440px;
+    border: 1px solid;
+    padding: 10px 10px;
+    
+}
+.container h4{
+    font-size: 20px;
+}
+.container p{
+    color: hsl(229, 6%, 66%);
+}
+#first-txt {
+    font-size: 20px;
+}
+
+.allbox p {
+    color: hsl(229, 6%, 66%);
+}
+.allbox {
+    color: blue;
+    display: flex;
+    flex-direction: row;
+} 
+.box2-3 {
+display: flex;
+flex-direction: column;
+border: 10px solid white;
+}
+
+#box1 {
+    border: solid white;
+    border-top: 3px green;
+    background-color: yellow;
+    width: 300px;
+    height: 200px ;
+    padding: 10px;
+    text-align: left;
+
+}
+#box2 {
+    border: solid white;
+    border-top: 3px green;
+    background-color: rgb(255, 0, 60);
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    text-align: left;
+
+}
+#box3 {
+    border: solid white;
+    border-top: 3px green;
+    background-color: rgb(255, 0, 51);
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    text-align: left;
+
+}
+#box4 {
+    border: solid whitesmoke;
+    border-top: 3px green;
+    background-color: yellow;
+    max-width: 300px;
+    height: 200px;
+    padding: 10px;
+    text-align: left;
+    padding: 10px 10px;
+
+}
+.allbox + svg {
+    text-align: right;
+}
