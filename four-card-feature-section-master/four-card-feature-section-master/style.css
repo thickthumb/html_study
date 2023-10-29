@@ -19,12 +19,13 @@
 
 .allbox p {
     color: hsl(229, 6%, 66%);
+    font-size: x-small;
 }
 .allbox {
     color: hsl(234, 12%, 34%);
     display: flex;
     flex-direction: row;
-    text-align: justify;
+    /* text-align: justify; */
     padding: 10px 200px;
 } 
 .box2-3 {
@@ -44,7 +45,7 @@ padding: 20px ;
     border-top-width: 8px;
     background-color: white;
     width: 300px;
-    height: 200px ;
+    height: 180px ;
     padding: 10px;
     text-align: left;
     border-radius: 5px;
@@ -57,7 +58,7 @@ padding: 20px ;
     border-top-width: 8px;
     background-color: white;
     width: 300px;
-    height: 200px;
+    height: 180px;
     padding: 10px;
     text-align: left;
     margin-bottom: 30px; 
@@ -70,7 +71,7 @@ padding: 20px ;
     border-top-width: 8px;
     background-color: white;
     width: 300px;
-    height: 200px;
+    height: 180px;
     padding: 10px;
     text-align: left;
     border-radius: 5px;
@@ -82,7 +83,7 @@ padding: 20px ;
     border-top-color: hsl(212, 86%, 64%);
     background-color: white;
     width: 300px;
-    height: 200px;
+    height: 180px;
     padding: 10px;
     text-align: left;
     border-radius: 5px;
@@ -92,10 +93,17 @@ padding: 20px ;
 .allbox + svg {
     text-align: right;
 }
+
 .box1 {
     margin-top: 150px;
 
 }
+
 .box3 {
     margin-top: 150px;
+}
+
+.image {
+    margin-left: 240px;
+    margin-top: 10px;
 }
