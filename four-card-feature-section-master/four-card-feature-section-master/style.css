@@ -1,9 +1,10 @@
 .container {
     text-align: center;
-    font-family: font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     max-width: 1440px;
-    border: 1px solid;
+    border: 1px solid whitesmoke;
     padding: 10px 10px;
+    margin: auto;
     
 }
 .container h4{
@@ -20,57 +21,81 @@
     color: hsl(229, 6%, 66%);
 }
 .allbox {
-    color: blue;
+    color: hsl(234, 12%, 34%);
     display: flex;
     flex-direction: row;
+    text-align: justify;
+    padding: 10px 200px;
 } 
 .box2-3 {
 display: flex;
 flex-direction: column;
+margin: 0px;
+
 border: 10px solid white;
+/* justify-content: center; */
+padding: 20px ;
+
 }
 
 #box1 {
-    border: solid white;
-    border-top: 3px green;
-    background-color: yellow;
+    border: solid whitesmoke;
+    border-top-color: hsl(180, 62%, 55%) ;
+    border-top-width: 8px;
+    background-color: white;
     width: 300px;
     height: 200px ;
     padding: 10px;
     text-align: left;
+    border-radius: 5px;
 
 }
 #box2 {
-    border: solid white;
-    border-top: 3px green;
-    background-color: rgb(255, 0, 60);
+    border:  solid whitesmoke;
+    /* border-top: 30px white;? */
+    border-top-color:hsl(0, 78%, 62%);
+    border-top-width: 8px;
+    background-color: white;
     width: 300px;
     height: 200px;
     padding: 10px;
     text-align: left;
+    margin-bottom: 30px; 
+    border-radius: 5px;
 
 }
 #box3 {
-    border: solid white;
-    border-top: 3px green;
-    background-color: rgb(255, 0, 51);
+    border:  solid whitesmoke;
+    border-top-color: hsl(34, 97%, 64%);
+    border-top-width: 8px;
+    background-color: white;
     width: 300px;
     height: 200px;
     padding: 10px;
     text-align: left;
+    border-radius: 5px;
 
 }
 #box4 {
     border: solid whitesmoke;
-    border-top: 3px green;
-    background-color: yellow;
-    max-width: 300px;
+    border-top-width: 10px;
+    border-top-color: hsl(212, 86%, 64%);
+    background-color: white;
+    width: 300px;
     height: 200px;
     padding: 10px;
     text-align: left;
-    padding: 10px 10px;
+    border-radius: 5px;
+
 
 }
 .allbox + svg {
     text-align: right;
+}
+.box1 {
+    margin-top: 150px;
+
+}
+.box3 {
+    margin-top: 150px;
 }
